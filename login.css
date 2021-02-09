@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html{
+  position: relative;
+}
+
+body{
+  background-image: linear-gradient(#bffcff,#7bbf81);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper{
+  width:100%;
+  
+}
+
+.form{
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 20vh;
+}
+
+.form h1,p{
+  text-align: center;
+}
+
+.form-group{
+  padding-top: 5vh;
+}
+
+.col-form-label{
+  text-align: right;
+}
+
+.btn{
+  width: 100%;
+
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  padding-left: 40vw;
+}
+
+
+
+
