@@ -113,7 +113,7 @@
 }
 
 .pic2 img{
-  border-radius: 5%;
+  border-radius: 15px;
 }
 
 .main-bot{
@@ -181,18 +181,49 @@ footer p{
     margin-right:20px;
     font-size:15px;
   }
+   
 
    .main-contents{
      display: flex;
      flex-direction: column;
+     margin-left: 10vh;
+   }
+
+   form{
+     padding-left: 50px;
    }
 
    .main,.wrapper-side{
      margin:0 auto;
    }
 
+   .pic,.pic2{
+     text-align: center;
+   }
+   .attract-items img{
+     width: 50%;
+   }
+     
+
+   .attract-sentence,.attract-sentence2{
+       font-size: large;
+       text-align: center;
+   }
+
    .wrapper-side{
      margin-top: 30px;
+   }
+
+   .FAQ{
+     margin: 0 auto;
+   }
+
+   .method{
+     margin-left:10vh;
+   }
+
+   .future-content img{
+     width:50%;
    }
 
 }
